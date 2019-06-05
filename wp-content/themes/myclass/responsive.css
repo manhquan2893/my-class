@@ -1,0 +1,11 @@
+@media(min-width: 1020px){
+	.container{
+		max-width: 996px;
+	}
+	#section3 .container{
+		max-width: 940px;
+	}
+	#section4 .container{
+		max-width: 990px;
+	}
+}
