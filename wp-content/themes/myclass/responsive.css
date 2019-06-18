@@ -6,6 +6,9 @@
 		max-width: 940px;
 	}
 	#section4 .container{
-		max-width: 990px;
+		max-width: 1170px;
+	}
+	#section5 .container{
+		max-width: 1080px;
 	}
 }

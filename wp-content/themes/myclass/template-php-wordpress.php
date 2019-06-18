@@ -6,20 +6,21 @@ Template Post Type: post
  ?>
 <?php get_header(); ?>
 
-<div id="single">
+<!-- <div id="single">
 	<div class="container">
-		<div id="title">Lập trình PHP - MySQL - Laravel</div>
+		<div id="title">Lập trình PHP - Wordpress</div>
 		<div id="content">
-			<p>Khóa học Lập trình PHP & MySQL trang bị kiến thức, kỹ năng để giúp học viên trở thành Lập trình Web chuyên nghiệp nhằm dễ dàng tìm kiếm công việc tại các công ty phần mềm. Với ầng 1,000 đơn tuyển dụng lập trình viên PHP mỗi năm đây là cơ hội cho nhiều bạn trẻ đang tìm kiếm việc làm với mức thu nhập khá cao.</p>
-			<p>Ngoài ra, khóa học cũng áp dụng framework phổ biến nhất hiện nay – Laravel framework để làm việc xuyên suốt trong quá trình học. Điều này sẽ giúp bạn có lợi thế rất lớn khi tìm việc tại các công ty phần mềm.</p>
+			<p>Wordpress phần mềm mã nguồn mở được viết bằng php, là một trong các nền tảng làm website phổ biến nhất hiện nay. Với giao diện thân thiện, và hệ thống quản trị nội dung thông minh, Wordpress hỗ trợ tối đa cho lập trình viên Web. Nếu bạn đang muốn tự làm một website, viết blog, hay trở thành một Web developer chuyên nghiệp thì Wordpress là lựa chọn cực kỳ phù hợp </p>
 			<h4>Khả năng của học viên sau khóa học</h4>
 			<ul>
 				<li>Tự thiết kế được website sử dụng HTML, CSS , JavaScripts, Bootstrap,JQuery</li>
-				<li>Sử dụng thành thạo ngôn ngữ lập trình PHP, biêt áp dụng MVC Pattern vào thực tế</li>
-				<li>Tự thiết kế và truy vấn đuợc cơ sở dữ liệu quan hệ MySQL</li>
-				<li>Biết sử dụng công cụ quản lý mã nguồn Git, Github để làm việc nhóm</li>
-				<li>Tạo được các ứng dụng Web sử dụng framework Laravel</li>
-				<li>Viết đuợc Unit Test cho ứng dụng PHP</li>
+				<li>Biết sử dụng các thư viện phù hợp để tạo hiệu ứng slide, cuộn chuột, chuyển động</li>
+				<li>Sử dụng thành thạo ngôn ngữ PHP</li>
+				<li>Tìm hiểu về cơ sở dữ liệu quan hệ và MySQL</li>
+				<li>Hiểu được quy trình lập trình theme Wordpress từ Front-end đến Back-end</li>
+				<li>Biết cách lập trình một file frontend thành website hoàn chỉnh được quản lí bởi wordpress</li>
+				<li>Biết sử dụng WordPress bản portable và Woocommerce</li>
+				<li>Cách xử lí Frontend trong các phần Homepage, Shop, sản phẩm chi tiết, tin tức, giỏ hàng, thanh toán.</li>
 			</ul>
 		</div>
 		<div id="desc">
@@ -56,7 +57,7 @@ Template Post Type: post
 			</div>
 			<div class="box" id="box2">
 				<div class="title">
-					Module2: Lập trình Back-end bằng PHP/MySQL theo mô hình MVC
+					Module2: Lập trình Back-end bằng PHP/MySQL
 				</div>
 				<div class="content">
 					<div class="small-box">
@@ -71,10 +72,9 @@ Template Post Type: post
 								<li>Khai báo và sử dụng mảng</li>
 								<li>Xử lý dữ liệu từ form</li>
 								<li>Function</li>
-								<li>Http Header, Cookie, Session</li>
 								<li>Lập trình hướng đối tượng trong PHP</li>
 								<li>Kỹ thuật Ajax trong jQuery</li>
-								<li>Mô hình MVC (Model - View - Controller)</li>
+								
 							</ul>
 						</div>
 					</div>
@@ -94,44 +94,26 @@ Template Post Type: post
 			</div>
 			<div class="box" id="box2">
 				<div class="title">
-					Module3: Làm việc với Laravel Framework
+					Module3: Lập trình theme Wordpress
 				</div>
 				<div class="content">
 					<div class="small-box">
-						<div class="small-title">Các khái niệm cốt lõi trong Laravel</div>
+						<div class="small-title">Các khái niệm cốt lõi trong Wordpress</div>
 						<div class="list">
 							<ul>
-								<li>Các khái niệm căn bản: Model, Route, Controller,View</li>
-								<li> Sử dụng Blade Template</li>
-								<li>Làm việc trên Command line</li>
-								<li>Thao tác với database sử dụng Migrate và Seed</li>
+								<li>Các đối tượng cơ bản trong Wordpress: Post, Page, Term, Taxonomy</li>
+								<li> Cách tạo một custom Theme trong Wordpress </li>
+								<li> </li>
 								<li>Dùng Migrate để tạo backup dữ liệu</li>
-								<li>Truy vấn dữ liệu nhanh dùng Model(Elequent ORM) và Query Builder</li>
-								<li>Phân quyền người dùng sử dụng Middleware</li>
-								<li>Quản lý đăng nhập với Authentication </li>
-								<li>Dùng Validate để xác nhận dữ liệu từ người dùng</li>
-								<li>Kỹ thuật Ajax áp dụng trong Laravel</li>
 								
 							</ul>
 						</div>
 					</div>
-					<div class="small-box">
-						<div class="small-title">Sử dụng thành thạo Laravel và các công cụ hỗ trợ</div>
-						<div class="list">
-							<ul>
-								<li>Tạo trang admin cho người người dùng</li>
-								<li>Thiết kế cơ sở dữ liệu dùng Migration</li>
-								<li>Đổ dữ liệu ra HTML nhanh chóng dùng Laravel</li>
-								<li>Sử dụng Git, Github để làm việc tốt trong môi trường doanh nghiệp</li>
-								<li>Viết unit Test cho ứng dụng</li>
-								
-							</ul>
-						</div>
-					</div>
+					
 				</div>
 			</div>
 		</div>
 	</div>
-</div>
+</div> -->
 
 <?php get_footer(); ?>
