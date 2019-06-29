@@ -25,6 +25,7 @@ if(!function_exists('godream_theme_setup')){
 function itc_enqueue_scripts() {
 	// Load our main stylesheet.
 	wp_enqueue_style('main-style',get_template_directory_uri() . '/style.css');
+	wp_enqueue_style('style1',get_template_directory_uri() . '/style1.css');
 	wp_enqueue_script( 'jquery');
 	wp_enqueue_style('flower','https://fonts.googleapis.com/css?family=East+Sea+Dokdo');
 	wp_enqueue_style( 'owl.carousel.min.css', get_template_directory_uri() . '/owlcarousel/dist/assets/owl.carousel.min.css' );

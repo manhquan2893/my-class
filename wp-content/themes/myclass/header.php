@@ -14,19 +14,27 @@
 						Mq
 					</div>
 					<div id="right">
-						Tech
+						Class
 					</div>
 				</div>
 			</div>
 			<ul>
-				<li><a href=""><i class="fas fa-home"></i></a></li>
+				<li><a href=" <?php echo get_home_url(); ?> "><i class="fas fa-home"></i></a></li>
 				<li class="menu-item"><a href="">Chương trình đào tạo <i class="fas fa-angle-down"></i></a>
 					<ul class="sub-menu-item">
-						<li><a href="">Lập trình PHP & MySql</a></li>
-						<li><a href="">Lập trình Web bằng Wordpress</a></li>
-						<li><a href="">Lập trình FrontEnd với VueJs</a></li>
-						<li><a href="">Lập trình FrontEnd với ReactJs</a></li>
-						<li><a href="">Lập trình cơ bản với C</a></li>
+						<?php 
+							$arg=array(
+								'post_type'=>'post',
+								'orderby'=>'date',
+								'order'=>'ASC'
+							);
+							$query=new WP_Query($arg);
+							if($query->have_posts()):while($query->have_posts()): $query->the_post();?>
+								<li><a href=" <?php the_permalink(); ?> "><?php the_title(); ?></a></li>
+							<?php
+							endwhile;
+							endif;
+						 ?>
 					</ul>
 				</li>
 				<li><a href="">Đăng ký học</a></li>
@@ -35,3 +43,4 @@
 			</ul>
 		</div>
 	</div>
+	<?php echo do_shortcode( '[metaslider id="36"]' ); ?>

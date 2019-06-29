@@ -13,6 +13,11 @@ jQuery(document).ready(function($) {
 	  autoplayHoverPause:true
 	});
    $('.owl-carousel').owlCarousel({
-   		items:1
+   		items:1,
+   		nav:false,
+   		autoplay:true,
+	  autoplaySpeed:1000,
+	  autoplayTimeout:5000,
+	  autoplayHoverPause:true
    });
 })

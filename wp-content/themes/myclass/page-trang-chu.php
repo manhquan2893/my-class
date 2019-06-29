@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<?php echo do_shortcode( '[metaslider id="36"]' ); ?>
+
 <div id="section2">
 	<div class="container">
 		<div id="left">
@@ -97,13 +97,13 @@
 		<div id="about">
 			<h2 class="title">Chúng tôi là ai ?</h2>
 			<div id="desc">
-				 MqTech được thành lập bởi nhóm giảng viên trẻ đã có nhiều năm kinh nghiệm làm việc và giảng dạy tại các tập đoàn phần mềm lớn như FPT, Framgia, ApTech. Hiểu được thực trạng về nhu cầu nhân lực của ngành, chúng tôi mong muốn chương trình đào tạo sẽ thu hẹp khoảng cách giữa nhà trường và doanh nghiệp. Bên cạnh đó, MqTech cũng tạo một môi trường rèn luyện tư duy lập trình cho những bạn trẻ muốn theo đuổi ngành công nghệ thông tin tại Nghệ An.
+				 MqClass được thành lập bởi nhóm giảng viên trẻ đã có nhiều năm kinh nghiệm làm việc và giảng dạy tại các tập đoàn phần mềm lớn như FPT, Framgia, ApTech. Hiểu được thực trạng về nhu cầu nhân lực của ngành, chúng tôi mong muốn chương trình đào tạo sẽ thu hẹp khoảng cách giữa nhà trường và doanh nghiệp. Bên cạnh đó, MqClass cũng tạo một môi trường rèn luyện tư duy lập trình cho những bạn trẻ muốn theo đuổi ngành công nghệ thông tin tại Nghệ An.
 			</div>
 		</div>
 	</div>
 </div>
 <div id="section4">
-	<h2 class="title">Các công nghệ được đào tạo tại MqTech</h2>
+	<h2 class="title">Các công nghệ được đào tạo tại MqClass</h2>
 	<div class="content">
 		<div class="container">
 		<div class="box">
@@ -146,15 +146,15 @@
 	</div>
 </div>
 <div id="section5">
-	<h2 class="title">Vì sao bạn nên chọn MqTech ?</h2>
+	<h2 class="title">Vì sao bạn nên chọn MqClass ?</h2>
 	<div class="container">
 		<div class="box">
 			<h3 class="title">1. Quy trình đào tạo bài bản theo mô hình Agile</h3>
-			<div class="desc"> Nhu cầu nhân lực CNTT ngày càng tăng, trong khi đó những bạn trẻ yêu thích học CNTT nhìn chung chưa có đủ kiến thức và kỹ năng cần thiết để đáp ứng yêu cầu thực tế. Tại MqTech, bạn được đào tạo để viết một phần mềm bài bản, nắm bắt được quy trình làm một dự án thật.</div>
+			<div class="desc"> Nhu cầu nhân lực CNTT ngày càng tăng, trong khi đó những bạn trẻ yêu thích học CNTT nhìn chung chưa có đủ kiến thức và kỹ năng cần thiết để đáp ứng yêu cầu thực tế. Tại MqClass, bạn được đào tạo để viết một phần mềm bài bản, nắm bắt được quy trình làm một dự án thật.</div>
 		</div>
 		<div class="box">
 			<h3 class="title">2. Học bằng cách làm những bài toán thực tế</h3>
-			<div class="desc"> MqTech giảng dạy theo phương pháp huấn luyện thực chiến trong thời gian ngắn, thực hành liên tục với cường độ cao, mục tiêu để các bạn sau khi học có thể đảm nhận ngay vị trí lập trình viên.
+			<div class="desc"> MqClass giảng dạy theo phương pháp huấn luyện thực chiến trong thời gian ngắn, thực hành liên tục với cường độ cao, mục tiêu để các bạn sau khi học có thể đảm nhận ngay vị trí lập trình viên.
 			</div>
 		</div>
 		<div class="box">	

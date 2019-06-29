@@ -2,13 +2,4 @@
 	.container{
 		max-width: 996px;
 	}
-	#section3 .container{
-		max-width: 940px;
-	}
-	#section4 .container{
-		max-width: 1170px;
-	}
-	#section5 .container{
-		max-width: 1080px;
-	}
 }
